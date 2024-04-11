@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "prettier": "@splendidlabs/prettier-config",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@splendidlabs/astro": "file:../../@splendidlabs/packages/astro",
+    "@splendidlabs/eslint-config": "^1.0.12",
+    "@splendidlabs/prettier-config": "^1.0.3",
+    "astro": "^4.5.18"
+  }
+}

@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro'
+import vid1 from '../assets/spa/what/google.mp4'
+import pic from '../assets/book.png'
+const vid2 = await import('../assets/spa/history/doc-title.mp4')
+---
+
+<!-- Video src values show up here but they are not resolving inside my vite plugin.  -->
+<Base>
+  <div>Vid1: {vid1}</div>
+  <div>Vid3: {vid2.default}</div>
+  <pre>{JSON.stringify(pic)}</pre>
+</Base>
